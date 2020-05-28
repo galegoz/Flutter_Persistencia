@@ -10,8 +10,16 @@ class AppBanco extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Dashboard'),
+          title: Text('Página Inicial'),
+          backgroundColor: Colors.green,
         ),
+        body: Column(
+          children: <Widget>[
+            Image.network('https://cdn.pixabay.com/photo/2017/08/30/07/52/money-2696219_1280.jpg')
+          ],
+        ),
+
+        
       ), //Scaffold
     ); //MaterialApp
   }
