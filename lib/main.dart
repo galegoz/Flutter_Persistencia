@@ -15,9 +15,21 @@ class AppBanco extends StatelessWidget {
         ),
         body: Column(
           children: <Widget>[
-            Image.asset('images/money.jpg')
+            Image.asset('images/money.jpg'),
+            Container(
+              height: 120,
+              width: 100,
+              color: Colors.green,
+              child: Column(
+                children: <Widget>[
+                  Icon(Icons.people_outline),
+                  Text('Contatos')
+                ],
+              ),
+            )
           ],
         ),
+
 
         
       ), //Scaffold
