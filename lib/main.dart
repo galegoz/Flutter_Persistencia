@@ -15,7 +15,7 @@ class AppBanco extends StatelessWidget {
         ),
         body: Column(
           children: <Widget>[
-            Image.network('https://cdn.pixabay.com/photo/2017/08/30/07/52/money-2696219_1280.jpg')
+            Image.asset('images/money.jpg')
           ],
         ),
 
